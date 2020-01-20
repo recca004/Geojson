@@ -1,18 +1,20 @@
 Store Locator
+===
 Node/Express/Mongo API with GeoJSON location field for store locations. Simple vanilla JS frontend using the Mapbox Library
 
 Quick Start
 Add your MONGO_URI and GEOCODER_API_KEY to the "config/config.env" file.
 
 # Install dependencies
-npm install
+`npm install`
 
 # Serve on localhost:5000
-npm run dev (nodemon)
+`npm run dev (nodemon)`
 or
-npm start
+`npm start`
 
 # Routes
+
 GET    /api/v1/stores # Get Stores
 
 POST   /api/v1/stores # Add Store
